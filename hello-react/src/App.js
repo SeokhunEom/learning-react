@@ -1,11 +1,15 @@
-import "./App.css";
+import Counter from './Counter';
+import MyComponent from './MyComponent';
+import Say from './Say';
 
 function App() {
-  const name = "리액트";
   return (
     <>
-      <div className="react">{name}</div>
-      <input />
+      <MyComponent name="React" favoriteNumber={1}>
+        리액트
+      </MyComponent>
+      <Counter />
+      <Say />
     </>
   );
 }

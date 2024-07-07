@@ -1,15 +1,11 @@
-import Counter from './Counter';
-import MyComponent from './MyComponent';
-import Say from './Say';
+import EventPractice from './EventPractice';
+import EventPracticee from './EventPracticee';
 
 function App() {
   return (
     <>
-      <MyComponent name="React" favoriteNumber={1}>
-        리액트
-      </MyComponent>
-      <Counter />
-      <Say />
+      <EventPractice />
+      <EventPracticee />
     </>
   );
 }
